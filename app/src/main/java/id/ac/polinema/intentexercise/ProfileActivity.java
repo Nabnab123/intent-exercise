@@ -19,7 +19,7 @@ public class ProfileActivity extends AppCompatActivity {
 
     private CircleImageView image;
     private TextView lbl_about, lbl_fullname, lbl_email, lbl_homepage;
-    private Button btn_visit;
+    private Button btn_visitt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class ProfileActivity extends AppCompatActivity {
         lbl_fullname = findViewById(R.id.label_fullname);
         lbl_email = findViewById(R.id.label_email);
         lbl_homepage = findViewById(R.id.label_homepage);
-        btn_visit = findViewById(R.id.button_homepage);
+        btn_visitt = findViewById(R.id.button_homepage);
         image = findViewById(R.id.image_profile);
 
         Bundle bundle = getIntent().getExtras();
